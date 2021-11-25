@@ -1,0 +1,31 @@
+{
+  "name": "associaplus3_server",
+  "version": "1.0.0",
+  "description": "## About Organization management system",
+  "main": "index.js",
+  "scripts": {
+    "start_ts": "ts-node src/index.ts",
+    "start_js": "node dist/index.js",
+    "dev": "nodemon dist/index.js",
+    "watch": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/le-goff-benoit/AssociaPlus3_server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/le-goff-benoit/AssociaPlus3_server/issues"
+  },
+  "homepage": "https://github.com/le-goff-benoit/AssociaPlus3_server#readme",
+  "devDependencies": {
+    "@types/node": "^16.11.10",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.4.0"
+  },
+  "dependencies": {
+    "typescript": "^4.5.2"
+  }
+}
